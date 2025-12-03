@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  </head>
+  <body>
+    <header class="container">
+        <center><h1>Drew's Cray-Z Ultra Blog</h1></center>
+        <nav>
+            <a href="index.html"><font size="7">Home</font></a>
+            <a href="about.html"><font size="7">About</font></a>
+            <a href="contact.html"><font size="7">Contact</font></a>
+        </nav>
+    </header>
+
+    <main class ="container">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="reason">Reason for Contact:</label>
+        <select id="reason" name="reason">
+          <option value="Hi">Saying Hi</option>
+          <option value="Contractor">Looking for a Contractor</option>
+          <option value="Interview">Interested in an Interview</option>
+        </select>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+
+    <footer>
+        <center><p>@ Drew Travis 2025</p></center>
+    </footer>
+    
+  </body>
+</html>
